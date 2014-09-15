@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>ef2cd61a-5de1-498e-bdd2-211d8d6cb174</ProjectGuid>
+    <ProjectGuid>{F80C3829-D53D-4187-B977-A5E7C2AFB644}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SudokuSolver.Queue</RootNamespace>
@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SudokuSolver.Domain\SudokuSolver.Domain.csproj">
+      <Project>{22183838-f641-4d6c-b75a-bf38854645a6}</Project>
+      <Name>SudokuSolver.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
