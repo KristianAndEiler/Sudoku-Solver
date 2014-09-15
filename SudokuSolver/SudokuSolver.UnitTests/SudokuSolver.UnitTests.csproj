@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{235E413D-7BE6-43B0-A863-9E5D9A444E4A}</ProjectGuid>
+    <ProjectGuid>e81f58e1-9762-4a5b-9797-d14befb12b56</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SudokuSolver.UnitTests</RootNamespace>
@@ -52,20 +52,6 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SudokuSolver.Domain\SudokuSolver.Domain.csproj">
-      <Project>{22183838-f641-4d6c-b75a-bf38854645a6}</Project>
-      <Name>SudokuSolver.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SudokuSolver.Queue\SudokuSolver.Queue.csproj">
-      <Project>{f80c3829-d53d-4187-b977-a5e7c2afb644}</Project>
-      <Name>SudokuSolver.Queue</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SudokuSolver.WebUI\SudokuSolver.WebUI.csproj">
-      <Project>{a45ef51b-f95f-43ee-8d83-8e364c79f719}</Project>
-      <Name>SudokuSolver.WebUI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
